@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*  *{} yaptığınızda body tamamını kaplayan css demek */
+        /* *{
+            color: red;
+            background: blueviolet;
+        }
+        .paragraf1 {
+            background: yellow;
+        } */
+
+        /* div .paragraf1{
+            color: red;
+            background: blueviolet;
+        }
+        div p{
+            color: cornflowerblue !important;
+            background: none !important;
+        } */
+
+        /* p,h2,div{   
+            color: green;
+        }
+        h2{
+            color: red;
+        } */
+
+        /* div>p{
+            color: red;
+        } */
+
+        /*  
+        #divsizp ~ div{
+            color: red;
+        }
+        /* ~ işareti divsizp den sonra gelen aynı seviye 
+        div etiketlerini seç demek kendisini seçmiyorsun */
+        
+        #divsizp + div{
+            color: red;
+        }
+         /* + işareti divsizp den sonra gelen aynı seviye 
+        div etiketini seç demek kendisini seçmiyorsun */
+
+    </style>
+</head>
+<body>
+    <p id="divsizp">div siz paragraf</p>
+    
+    <div>
+        <p>sınıfsız divli paragraf</p>
+    </div>
+
+    <div class="container">
+        Burası div içi
+        <p class="paragraf1">paragraf 1</p>
+        <p class="paragraf2">paragraf 2</p>
+        <p class="paragraf3">paragraf 3</p>
+    </div>
+   
+    <div class="contanier">
+        <h2>DİV2</h2>
+    </div>
+    
+</body>
+</html>
